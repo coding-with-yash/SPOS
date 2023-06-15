@@ -121,5 +121,15 @@ int main()
 // Compile program : gcc ph.c -o xyz -lpthread
 // Run program: ./xyz
 
+Conclusion:
+• Process synchronization is defined as no two processes have access to the same 
+associated data and resources.
+• The Dining philosopher problem is an example of process synchronization problem.
+• Philosopher is an analogy for process and chopstick for resources, we can try to solve 
+process synchronization problems using this.
+• The solution of Dining Philosopher problem focuses on the use of semaphores.
+• No two nearby philosophers can eat at the same time using the aforesaid solution to 
+the dining philosopher problem, and this situation causes a deadlock, this is a 
+drawback of the Dining philosopher problem.
 
 
